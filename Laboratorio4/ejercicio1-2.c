@@ -31,6 +31,6 @@ int main() {
                 printf("\nSoy el padre, mi variable i es %d", i); // Imprime el valor de i
             };
     };
-    printf ("\nFinal de ejecucion de %d \n", getpid()); //Imprime el id del ambos procesos teoricos o practicos
+    printf ("\nFinal de ejecucion de %d \n", getpid()); //Imprime el id del ambos procesos padre e hijo
     exit (0); // Finaliza el programa
 }
