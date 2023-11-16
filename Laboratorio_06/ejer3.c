@@ -33,7 +33,7 @@ void *matrizpormatriz(void *arg) {
             printf("Hilo %d multiplicando fila  %d x columna %d\n", p->id, i,j);
             for (k = 0; k < 3; k++) {
                 // Multiplica cada elemento de la fila por el elemento de columna 
-                p->resultado[i][j] = p->matrizA[i][j] * p->matrizB[i][j];
+                p->resultado[i][j] += p->matrizA[i][j] * p->matrizB[i][j];
             }
             usleep(100000);  // Pausa de 100000 microsegundos 
         }
