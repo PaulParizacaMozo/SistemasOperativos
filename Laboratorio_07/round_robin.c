@@ -33,7 +33,7 @@ void roundRobin(Proceso procesos[], int n_procesos, int quantum) {
                 printf("%d -> %d\t\t%s\n", tiempoActual - tiempoServico, tiempoActual, procesos[i].id);
                 // Si un proceso termina mostrar el tiempo que demora en completarse.
                 if (procesos[i].tiempoRestante == 0) {
-                    printf(">>> Proceso %s completado. Tiempo de total de ejecucion(retorno): %d\n\n", procesos[i].id, tiempoActual);
+                    printf(">>> Se completo el proceso %s. Tiempo de total de ejecucion(retorno): %d\n\n", procesos[i].id, tiempoActual);
                 }
             }
         }
