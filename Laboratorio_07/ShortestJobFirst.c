@@ -31,7 +31,7 @@ void sjf(Proceso procesos[], int n_procesos) {
         // Actualiza el tiempo actual
         tiempoActual += procesos[i].tiempoServicio;
         // Muestra el mensaje de proceso completado
-        printf(">>> Proceso %s completado. Tiempo total de ejecucion(retorno): %d\n", procesos[i].id, tiempoActual);
+        printf(">>> Se completo el proceso %s. Tiempo total de ejecucion(retorno): %d\n", procesos[i].id, tiempoActual);
     }
 }
 
